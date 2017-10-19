@@ -1,0 +1,15 @@
+<div>
+  <label style="font:bold">{{ order.name }}</label>
+  <ul>
+    <li style="display:inline" *ngFor="let myToppings of order.toppings">
+      {{myToppings}} /
+    </li>
+  </ul>
+  <label>{{ order.size }}</label>
+  <label style="font:bold">
+    <u>{{ order.price | number:'3.2-3' }} x {{ order.quantity }}</u>
+  </label>
+  <label style="font:bold;font-size:2em">
+    {{ order.totalCost | number:'3.2-3' }}
+  </label>
+</div>

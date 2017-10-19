@@ -1,0 +1,38 @@
+<hr>
+<div class="panel panel-default" *ngIf="selectedPizza">
+  <div class="panel-body">
+    <form class="form-horizontal">
+      <div class="col-md-4">
+        <div class="form-group">
+          <h3>{{ selectedPizza.name }}</h3>
+        </div>
+        <div class="form-group">
+          <ul class="list-group" *ngFor="let myToppings of selectedPizza.toppings">
+            <li class="list-group-item list-group-item-warning">
+              {{ myToppings }}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+
+      <div class="col-md-7">
+        <div class="form-group">
+          <h3>
+            <span class="label label-success pull-right">Php {{ selectedPizza.sizePrice | number : '1.2-2' }}</span>
+          </h3>
+        </div>
+        <div class="form-group">
+          <img [src]="selectedPizza.img" class="img-responsive center-block" />
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="panel-footer">
+    <input type="button" class="btn btn-success" (click)="addToCart($event)" value="Add Pizza" />
+  </div>
+
+
+</div>

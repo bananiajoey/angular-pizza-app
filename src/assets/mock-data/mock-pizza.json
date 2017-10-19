@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Pepperoni",
+        "price": 300.00,
+        "img": "../../assets/pizza-img/pepperoni.jpg",
+        "toppings": [
+            "Pepperoni",
+            "Cheese"
+        ]
+    },
+    {
+        "name": "Hawaiian",
+        "price": 350.00,
+        "img": "../../assets/pizza-img/hawaiian.jpg",
+        "toppings": [
+            "Ham",
+            "Bell Pepper",
+            "Pineapple"
+        ]
+    },
+    {
+        "name": "Garden Special",
+        "price": 450.00,
+        "img": "../../assets/pizza-img/garden.jpg",
+        "toppings": [
+            "Singkamas",
+            "Talong",
+            "Sigarilyas",
+            "Mani"
+        ]
+    },
+    {
+        "name": "BBQ",
+        "price": 320.00,
+        "img": "../../assets/pizza-img/bbq.jpg",
+        "toppings": [
+            "BBQ",
+            "Stick"
+        ]
+    },
+    {
+        "name": "Bacon Rush",
+        "price": 250.00,
+        "img": "../../assets/pizza-img/bacon.jpg",
+        "toppings": [
+            "Bacon",
+            "Rush"
+        ]
+    },
+    {
+        "name": "Texas Heat",
+        "price": 350.00,
+        "img": "../../assets/pizza-img/texas.jpg",
+        "toppings": [
+            "Texas",
+            "Heat"
+        ]
+    },
+    {
+        "name": "Chicken BBQ",
+        "price": 400.00,
+        "img": "../../assets/pizza-img/chixbbq.jpg",
+        "toppings": [
+            "Chicken",
+            "BBQ",
+            "Stick"
+        ]
+    },
+    {
+        "name": "Four Cheese",
+        "price": 400.00,
+        "img": "../../assets/pizza-img/4cheese.jpg",
+        "toppings": [
+            "Cheese",
+            "Cheese",
+            "Cheese",
+            "Cheese"
+        ]
+    },
+    {
+        "name": "Bicol Express",
+        "price": 400.00,
+        "img": "../../assets/pizza-img/bicol.jpg",
+        "toppings": [
+            "Bicol",
+            "Express"
+        ]
+    }
+    
+]

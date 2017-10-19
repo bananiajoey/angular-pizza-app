@@ -1,0 +1,8 @@
+<app-cart-item *ngIf="myOrder" [order]="myOrder"></app-cart-item>
+<br>
+<br>
+<app-delivery *ngIf="myOrder" [order]="myOrder"></app-delivery>
+<br>
+<br>
+
+<input type="button" *ngIf="myOrder" (click)="checkOut($event)" value="Order Now" />
